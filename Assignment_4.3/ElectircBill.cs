@@ -78,7 +78,7 @@ namespace Assignment_4._3
 
         public void StartBilling()
         {
-            if (UnitConsumed > 0 && UnitConsumed <= 199)
+            if (UnitConsumed > 0 && UnitConsumed < 200)
             {
                 CalculateUnits(UnitConsumed, SmallUnits);
             }
